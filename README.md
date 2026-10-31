@@ -219,56 +219,6 @@ Application Layer: ServiceNow forms, business logic, workflows, and configuratio
 
 Data Layer: ServiceNow tables that store patient, test, appointment, and report records.
 
-Testing and Validation
-
-The application can be validated through the following functional test cases:
-
-Test Case
-
-Expected Outcome
-
-Portal Access
-
-Service Portal opens successfully.
-
-Patient Registration
-
-Patient information is saved.
-
-Test Catalog
-
-Available diagnostic tests are displayed.
-
-Test Selection
-
-Selected diagnostic test is carried forward.
-
-Appointment Booking
-
-Appointment details are submitted.
-
-Appointment Confirmation
-
-Confirmation information is displayed.
-
-Appointment Management
-
-Appointment record is available in the backend.
-
-Sample Processing
-
-Sample status is updated successfully.
-
-Report Management
-
-Laboratory report record is maintained.
-
-Report Access
-
-Authorized users can access available reports.
-
-Actual test results should be recorded after executing each test case.
-
 # Advantages
 
 Centralized management of diagnostic center operations.
