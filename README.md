@@ -215,11 +215,11 @@ The application follows a ServiceNow-based architecture consisting of:
 
 # Presentation Layer: Service Portal through which users access diagnostic services.
 
-# Application Layer: ServiceNow forms, business logic, workflows, and configurations.
+Application Layer: ServiceNow forms, business logic, workflows, and configurations.
 
-# Data Layer: ServiceNow tables that store patient, test, appointment, and report records.
+Data Layer: ServiceNow tables that store patient, test, appointment, and report records.
 
-# Testing and Validation
+Testing and Validation
 
 The application can be validated through the following functional test cases:
 
