@@ -213,7 +213,7 @@ Maintains report numbers, patient and appointment references, report dates, diag
 
 The application follows a ServiceNow-based architecture consisting of:
 
-# Presentation Layer: Service Portal through which users access diagnostic services.
+Presentation Layer: Service Portal through which users access diagnostic services.
 
 Application Layer: ServiceNow forms, business logic, workflows, and configurations.
 
