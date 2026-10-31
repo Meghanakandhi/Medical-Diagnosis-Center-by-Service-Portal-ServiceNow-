@@ -7,13 +7,13 @@ The application enables patients to register, explore available diagnostic tests
 
 The primary goal is to reduce manual administrative work, improve data organization, and provide a convenient experience for patients and staff.
 
-Problem Statement
+# Problem Statement
 
 Traditional diagnostic center operations often involve manual registration, appointment scheduling, test management, and report handling. Managing these activities separately can lead to inefficient record maintenance, difficulties in tracking appointments, and delays in accessing laboratory reports.
 
 A centralized digital platform is needed to organize these operations, simplify service access, and improve the overall management of diagnostic center activities.
 
-Objectives
+# Objectives
 
 Develop a centralized diagnostic center management application.
 
@@ -31,9 +31,9 @@ Provide convenient access to available reports.
 
 Implement role-based access for different users.
 
-Key Features
+# Key Features
 
-1. Patient Registration
+# 1. Patient Registration
 
 Provides a registration form for collecting patient details.
 
@@ -41,7 +41,7 @@ Captures name, email, phone number, date of birth, gender, and address.
 
 Maintains patient information in ServiceNow records.
 
-2. Diagnostic Test Catalog
+# 2. Diagnostic Test Catalog
 
 Displays available diagnostic tests.
 
@@ -51,7 +51,7 @@ Provides test names, codes, descriptions, prices, and other relevant details.
 
 Allows users to select a test through the Book Now option.
 
-3. Appointment Management
+# 3. Appointment Management
 
 Supports diagnostic test appointment booking.
 
@@ -61,7 +61,7 @@ Displays appointment confirmation information.
 
 Allows staff to manage appointment records.
 
-4. Laboratory Sample Processing
+# 4. Laboratory Sample Processing
 
 Supports laboratory staff in managing sample-processing activities.
 
@@ -69,7 +69,7 @@ Provides functionality to update sample status.
 
 Helps track the processing progress of diagnostic tests.
 
-5. Laboratory Report Management
+# 5. Laboratory Report Management
 
 Maintains laboratory report records.
 
@@ -79,13 +79,13 @@ Supports report verification and management.
 
 Provides patient access to available reports through the configured portal.
 
-6. Notification Management
+# 6. Notification Management
 
 Includes configured notification templates for appointment and laboratory report-related communication.
 
 Supports communication workflows based on ServiceNow notification configuration.
 
-7. Administrative Management
+# 7. Administrative Management
 
 Maintains patient, diagnostic test, appointment, and report records.
 
@@ -93,7 +93,7 @@ Supports backend record management through ServiceNow.
 
 Provides role-based access according to user responsibilities.
 
-User Roles
+# User Roles
 
 Role
 
@@ -115,13 +115,13 @@ Administrator
 
 Manage application records and configurations.
 
-Application Workflow
+# Application Workflow
 
 The application follows a structured diagnostic service workflow:
 
 Patient Registration → Diagnostic Test Selection → Appointment Booking → Appointment Confirmation → Sample Processing → Laboratory Report Management → Report Access
 
-Example: CBC Blood Test
+# Example: CBC Blood Test
 
 The user opens the diagnostic test catalog.
 
@@ -141,7 +141,7 @@ The laboratory report is created and maintained.
 
 The patient accesses the available report through the portal.
 
-Technology Stack
+# Technology Stack
 
 Technology
 
@@ -175,15 +175,15 @@ GitHub
 
 Project documentation and version control
 
-Database Structure
+# Database Structure
 
 The application uses ServiceNow tables to maintain diagnostic center information.
 
-Patient Table
+# Patient Table
 
 Stores patient registration and contact information.
 
-Diagnostic Test Table
+# Diagnostic Test Table
 
 Custom table:
 
@@ -201,25 +201,25 @@ Test Price
 
 Availability and other test details
 
-Appointment Table
+# Appointment Table
 
 Maintains appointment numbers, patient references, selected tests, appointment dates, and booking statuses.
 
-Laboratory Report Table
+# Laboratory Report Table
 
 Maintains report numbers, patient and appointment references, report dates, diagnostic results, and verification information.
 
-System Architecture
+# System Architecture
 
 The application follows a ServiceNow-based architecture consisting of:
 
-Presentation Layer: Service Portal through which users access diagnostic services.
+# Presentation Layer: Service Portal through which users access diagnostic services.
 
-Application Layer: ServiceNow forms, business logic, workflows, and configurations.
+# Application Layer: ServiceNow forms, business logic, workflows, and configurations.
 
-Data Layer: ServiceNow tables that store patient, test, appointment, and report records.
+# Data Layer: ServiceNow tables that store patient, test, appointment, and report records.
 
-Testing and Validation
+# Testing and Validation
 
 The application can be validated through the following functional test cases:
 
@@ -269,7 +269,7 @@ Authorized users can access available reports.
 
 Actual test results should be recorded after executing each test case.
 
-Advantages
+# Advantages
 
 Centralized management of diagnostic center operations.
 
@@ -287,7 +287,7 @@ Role-based access control.
 
 Better administrative record organization.
 
-Limitations
+# Limitations
 
 Depends on ServiceNow platform availability and configuration.
 
@@ -299,7 +299,7 @@ System performance depends on instance configuration and network conditions.
 
 Laboratory reports require appropriate professional interpretation.
 
-Future Enhancements
+# Future Enhancements
 
 Online payment gateway integration.
 
@@ -317,7 +317,7 @@ Multi-branch diagnostic center management.
 
 AI-assisted healthcare information with appropriate clinical validation.
 
-Conclusion
+# Conclusion
 
 The Medical Diagnosis Center by Service Portal using ServiceNow provides a centralized platform for managing essential diagnostic center activities.
 
